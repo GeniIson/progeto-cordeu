@@ -1,0 +1,124 @@
+@charset "utf-8";
+:root{
+    --font2: Verdana, Geneva,Tahoma, sans-serif;
+    --font1:  Geneva,Tahoma, Verdana, sans-serif;
+    --font3: Tahoma, Verdana, Geneva, sans-serif;
+    
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    }
+
+    html, body{
+        min-height: 100vh;
+        background-color: darkgray;
+        font-family: var(--font1);
+         font-size: 3.5vh;
+    }
+    header{
+        background-color: black;
+        color: white;
+        text-align: center;
+    
+    }
+    header>h1{
+        padding-top: 10vh;
+        font-variant: small-caps;
+        font-family: var(--font2);
+        font-size: 10vh;
+    }
+    header>p{
+        padding-bottom: 10vh;
+        font-size: 4vh;
+        }
+    header a, footer a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        
+    }
+    head a:hover,footer a:hover{
+        text-decoration: underline;
+    }
+    section{
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+        line-height:2em;
+        padding: 2em;
+        font-family: var(--font3);
+        font-size: 3.5vh;
+
+    }
+    section>p{
+        
+        padding-bottom: 2em;
+       
+        text-indent: 20px;
+        font-size: 3vh;
+
+        
+    }
+    section.normal{
+        background-color: white;
+        color: black;
+    }
+    section.imaguem{
+        background-color: rgba(1, 10, 10, 0.568);
+        color: white;
+        box-shadow: inset 6px 6px 15px 0px rgba(0, 0, 0, 0.466);
+        background-size: cover;
+        background-attachment: fixed;
+        }
+    section.imaguem>p{
+width: 300px;
+
+background-color: rgba(0, 0, 0, 0.315);
+
+    }
+    footer{
+        background-color: black;
+        
+        text-align: center;
+        font-size: 2.5vh;
+
+    }
+
+
+
+    section#img01{
+        background-image: url('background001.jpg');
+        background-position: center;
+       
+
+    }
+    section#img02{
+        background-image: url('background002.jpg');
+        background-position: center;
+        
+        
+    }
+    
+
+footer{
+    background-color:black;
+    color: white;
+    text-align: center;
+    font-size: 13px;
+    padding:0.5em ;
+    padding: 2px;
+
+}
+    footer a{
+        color: rgb(233, 229, 12);
+        font-weight: bold;
+    text-decoration: none ;
+    }
+    footer a:hover{
+        color: rgb(233, 82, 12);
+        font-weight: bold;
+        text-decoration: underline ;
+        transition-duration: 2s;
+    }
+    
+    
